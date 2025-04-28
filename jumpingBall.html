@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://t4.ftcdn.net/jpg/04/32/82/61/360_F_432826130_pkuMZYmIRZpu618nlqdJPZ1gp8B29DIp.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .ball{
+            height: 200px;
+            width: 200px;
+            padding: 0%;
+            margin: 0%;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUyLJyfnlf2-GQrNdaX2z-bCw-yy4qFbIwwQ&s);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* border: 2px solid; */
+            border-radius: 90%;
+            
+            animation-name: ball;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-timing-function: ease-in-out;
+            position: relative;
+            top: 450px;
+            left: 650px;
+            animation-iteration-count: infinite;
+            text-shadow: 2px 3px 5px gray;
+            
+        }
+        @keyframes ball{
+            0%{
+                top: 450px;
+                left: 650px;
+
+            }
+           
+            50%{
+                top: 100px;
+                left: 650px;
+
+            }
+            
+            100%{
+                
+            }
+        }
+        h1{
+            position: relative;
+            top: 480px;
+            left: 660px;
+            text-shadow: 0px -30px 3px rgb(19, 18, 18);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <h1>Jumping Ball</h1>
+</body>
+</html>
