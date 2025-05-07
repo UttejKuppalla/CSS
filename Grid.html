@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 20px;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(5 ,1fr);
+            height: 100vh;
+            gap: 20px;
+        }
+        .child1{
+            background-image: linear-gradient(to top right,pink,palevioletred);
+            display: flex;
+            justify-content: center;
+            grid-row: 1/3;
+            grid-column: 1/4;
+
+        }
+        .child2{
+            background-image: linear-gradient(to bottom left,pink,palevioletred );
+            display: flex;
+            justify-content: center;
+            grid-column: 1/6;
+        }
+        .child3{
+            background-image: linear-gradient( to bottom left,aqua,rgb(18, 144, 190));
+            display: flex;
+            justify-content: center;
+            grid-column: 4/6;
+            grid-row: 1/2;
+        }
+        .child4{
+            background-image: linear-gradient( to top right,aqua,rgb(18, 144, 190));
+            display: flex;
+            justify-content: center;
+            grid-column: 4/6;
+            grid-row:2/3;
+        }
+        .child5{
+            background-image: linear-gradient(to top right, lightsalmon,rgb(229, 114, 152));
+            display: flex;
+            justify-content: center;
+            
+        }
+        .child6{
+            background-image: linear-gradient( to top right, lightsalmon,rgb(229, 114, 152));
+            display: flex;
+            justify-content: center;
+        }
+        .child7{
+            background-image: linear-gradient( to top right, lightsalmon,rgb(229, 114, 152));
+            display: flex;
+            justify-content: center;
+        }
+        .child8{
+            background-image: linear-gradient( to top right, lightsalmon,rgb(229, 114, 152));
+            display: flex;
+            justify-content: center;
+        }
+        .child9{
+            background-image: linear-gradient( to top right, lightsalmon,rgb(229, 114, 152));
+            display: flex;
+            justify-content: center;
+        }
+        .c1{
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            transform: rotate(45deg);
+            align-self: center;
+            border-radius: 7px;
+        }
+        p{
+            text-align: center;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1"><div class="c1"><p>1</p></div></div>
+        <div class="child2"><div class="c1"><p>2</p></div></div>
+        <div class="child3"><div class="c1"><p>3</p></div></div>
+        <div class="child4"><div class="c1"><p>4</p></div></div>
+        <div class="child5"><div class="c1"><p>5</p></div></div>
+        <div class="child6"><div class="c1"><p>6</p></div></div>
+        <div class="child7"><div class="c1"><p>7</p></div></div>
+        <div class="child8"><div class="c1"><p>8</p></div></div>
+        <div class="child9"><div class="c1"><p>9</p></div></div>
+    </div>
+    
+</body>
+</html>
