@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./images/welcome-hero/welcome-banner.jpg );
+            background-size: 120%;
+            background-repeat: no-repeat;
+            margin: 0%;
+            background-attachment: scroll;
+
+        }
+        .class{
+            position: sticky;
+            top: 0%;
+            
+            display: flex;
+            /* position: relative; */
+            padding: 20px;
+            transition-property: all;
+            
+        }
+        .class :-ms-ticks-after{
+            transition-delay: 0.3s;
+            transition-timing-function: ease-in-out;
+            
+            background-color: black;
+
+        }
+        
+        .child{
+            display: flex;
+            padding-left: 100px;
+            font-size: medium;
+            color: white;
+            font-family: serif;
+            letter-spacing: 3px;
+        }
+        .child1{
+            display: flex;
+            position: absolute;
+            right: 90px;
+        }
+        .a{
+            text-decoration-line: none;
+            color: white;
+            transition-property: color;
+        }
+        .nav{
+            padding: 15px;
+        }
+       
+        .a :hover{
+            color: blue;
+        }
+        .text{
+            margin-top: 200px;
+            /* border: 3px solid; */
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-content: center; */
+            /* line-height: 70px; */
+            margin: 50px;
+
+        }
+        .lrge{
+        
+        align-self: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xxx-large;
+        word-spacing: 5px;
+        
+         }
+         .center,.center1{
+        align-self: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 2px ;
+        font-size: large;
+         }
+        .button{
+        align-self: center;
+        margin: 30px;
+        /* line-height: 120px; */
+        transition-property: all;
+
+        
+         }
+        .button1{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        text-decoration-line:none ;
+        border-radius: 3px;
+        background-color: darkturquoise;
+        
+
+        }
+        .button :hover{
+        transition-delay: 0.5s;
+        transition-duration: 0.5s;
+    
+        background-color: blue;
+        }
+
+        
+        .gap{
+            height: 15px;
+            
+        }
+        #yearr{
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: medium;
+        }
+        .table{
+        margin-left: 15%;
+        width: 70%;
+        height: 300px;
+        /* border: 3px solid; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+
+        }
+        .child2{
+            
+            border: 2px solid;
+            padding: 20px;
+            width: 250px;
+            height: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="gap"></div>
+    <div class="class">
+        <div class="child">
+            <h2>CARVILLA</h2>
+        </div>
+        <div class="child1">
+            <a href="" class="a"><h3 class="nav">HOME</h3></a>
+            <a href="" class="a"><h3 class="nav">SERVICE</h3></a>
+            <a href="" class="a"><h3 class="nav">FEATURED CARS</h3></a>
+            <a href="" class="a"><h3 class="nav">NEW CARS</h3></a>
+            <a href="" class="a"><h3 class="nav">BRANDS</h3></a>
+            <a href="" class="a"><h3 class="nav">CONTACT</h3></a>
+        </div>
+    </div>
+    <div class="text">
+        <h1 class="lrge">get your desired car in resonable price</h1>
+        <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+        <p class="center1">incididunt ut labore et dolore magna aliqua.</p>
+        <div class="button"><a href="" class="button1">Contact Us</a><div>
+    </div>
+
+    </div>
+    </div>
+    <div class="table">
+        <div class="child2">
+            <select name="Year" id="yearr" >
+                <option value="">Year</option>
+                <option value="">2025</option>
+                <option value="">2024</option>
+                <option value="">2023</option>
+            </select>
+        </div>
+        <div class="child2">
+            <select name="year" id="yearr">
+            <option value="">Make</option>
+            <option value="">Toyota</option>
+            <option value="">Benz</option>
+            <option value="">Audi</option></select>
+        </div>
+        <div class="child2">
+            <select name="" id="yearr">
+            <option value="">Select Model</option>
+            <option value=""></option>
+            <option value=""></option></select>
+        </div>
+        <div class="child2">
+            <select name="" id="yearr">
+            <option value="">Body Style</option>
+            <option value=""></option>
+            <option value=""></option></select>
+        </div>
+        <div class="child2">
+            <select name="" id="yearr">
+            <option value="">Car Condition</option>
+            <option value=""></option>
+            <option value=""></option></select>
+        </div>
+        <div class="child2">
+            <select name="" id="yearr">
+            <option value="">Select Price</option>
+            <option value=""></option>
+            <option value=""></option></select>
+        </div>
+    </div>
+    
+</body>
+</html>

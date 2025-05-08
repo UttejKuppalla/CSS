@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+    background-image: url(./images/welcome-hero/welcome-banner.jpg);
+    background-repeat: no-repeat;
+}
+
+.navparent{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    /* border: 2px solid; */
+    
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    
+}
+.navchild1{
+    display: flex;
+    font-size: x-large;
+    width: 300px;
+    justify-content: space-around;
+    padding-left: 40px;
+    
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navchild2{
+    display: flex;
+    
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 200px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 1.5px;
+
+    /* border: 2px solid; */
+}
+.a{
+    text-decoration: none;
+    
+    color: white;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+.a:hover{
+    color: blue;
+}
+.text{
+    height: 70vh;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lrge{
+    text-transform: uppercase;
+    font-size: xxx-large;
+    color:aliceblue;
+    word-spacing: 3px;
+}
+.center{
+    text-align: center;
+    color:aliceblue;
+    font-size: large;
+    line-height: 15px;
+    word-spacing: 3px;
+    text-decoration: solid;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    background-color: rgb(46, 76, 225);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:70px ;
+    padding-left: 70px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: azure;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    transition-duration: 0.7s;
+}
+.button1:hover{
+    background-color: rgb(9, 42, 205);
+}
+.grid{
+    margin-top: 100px;
+    margin-left: 15%;
+    background-color: white;
+    width: 70%;
+    height: 250px;
+    border: 2px solid;
+    display: grid;
+    grid-template-areas:'c1 c2 c5'
+                        'c3 c4 c5' ;
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c4{
+    grid-area: c4;
+}
+.c5{
+    grid-area: c5;
+}
+
+
