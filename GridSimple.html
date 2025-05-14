@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            height: 100vh;
+            grid-template-areas: 'c1 c1 c1 c3 c3'
+                                  'c1 c1 c1 c4 c4'
+                                  'c2 c2 c2 c2 c2'
+                                  'c5 c6 c7 c8 c9';
+            
+        }
+        .c1{
+            background-color: brown;
+            grid-area: c1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c2{
+            background-color: yellow;
+            grid-area: c2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c3{
+            background-color: green;
+            grid-area: c3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c4{
+            background-color: lightblue;
+            grid-area: c4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c5{
+            background-color: lightcyan;
+            grid-area: c5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c6{
+            background-color: lightsalmon;
+            grid-area: c6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c7{
+            background-color: darkblue;
+            grid-area: c7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c8{
+            background-color: darkgreen;
+            grid-area: c8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .c9{
+            background-color: aqua;
+            grid-area: c9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            
+            transform: rotate(45deg);
+            text-align: center;
+            align-self: center;
+        }
+        .cc1{
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 10px;
+            transform: rotate(-45deg);
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="c2"><div class="cc1"><p>2</p></div></div>
+        <div class="c3"><div class="cc1"><p>3</p></div></div>
+        <div class="c4"><div class="cc1"><p>4</p></div></div>
+        <div class="c5"><div class="cc1"><p>5</p></div></div>
+        <div class="c6"><div class="cc1"><p>6</p></div></div>
+        <div class="c7"><div class="cc1"><p>7</p></div></div>
+        <div class="c8"><div class="cc1"><p>8</p></div></div>
+        <div class="c9"><div class="cc1"><p>9</p></div></div>
+        <div class="c1"><div class="cc1"><p>1</p></div></div>
+    </div>
+</body>
+</html>

@@ -55,7 +55,7 @@ body{
 }
 .text{
     height: 70vh;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,16 +94,26 @@ body{
 .button1:hover{
     background-color: rgb(9, 42, 205);
 }
+#white{
+    color: azure;
+    text-decoration:none ;
+    letter-spacing: 3px;
+    font-size: large;
+}
 .grid{
-    margin-top: 100px;
-    margin-left: 15%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 13%;
     background-color: white;
-    width: 70%;
-    height: 250px;
-    border: 2px solid;
+    width: 75%;
+    height: 300px;
+    /* border: 2px solid; */
     display: grid;
-    grid-template-areas:'c1 c2 c5'
-                        'c3 c4 c5' ;
+    grid-template-areas:'c1 c2 c6 c5'
+                        'c3 c4 c7 c5' ;
+    place-items: center;
+    /* box-shadow: 5px 10px  gray; */
+    filter: drop-shadow(0.25rem 0.5rem 0.5rem gray);
 }
 .c1{
     grid-area: c1;
@@ -117,8 +127,128 @@ body{
 .c4{
     grid-area: c4;
 }
+
 .c5{
+    border: 0px;
     grid-area: c5;
+}
+.c6{
+    grid-area: c6;
+}
+.c7{
+    grid-area: c7;
+}
+.s1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border: 0px ;
+    background-color: rgb(230, 230, 230);
+    font-size: medium;
+}
+.threedivParent{
+    display: grid;
+    grid-template-areas: 'a1 a2 a3' ;
+    justify-content: center;
+    gap: 30px;
+    margin: 10%;
+}
+.threec1{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    grid-area: a1;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+}
+.threec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+    grid-area: a2;
+}
+.threec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+    grid-area: a3;
+}
+.fas fa-car{
+    font-size: large
+
+}
+.h{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(83, 83, 83);
+}
+.p{
+    text-align: center;
+   
+    font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: gray;
+    
+}
+.bar{
+    text-align: center;
+    font-size: x-large;
+    color: blue;
+}
+.threec1:hover{
+    background-color: rgb(42, 88, 206);
+
+    .h{
+        color: white;
+    }
+    .p{
+        color: white;
+    }
+    .bar{
+        color: white;
+    }
+}
+.threec2:hover{
+    background-color: rgb(42, 88, 206);
+
+    .h{
+        color: white;
+    }
+    .p{
+        color: white;
+    }
+    .bar{
+        color: white;
+    }
+}
+.threec3:hover{
+    background-color: rgb(42, 88, 206);
+
+    .h{
+        color: white;
+    }
+    .p{
+        color: white;
+    }
+    .bar{
+        color: white;
+    }
 }
 
 
