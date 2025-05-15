@@ -188,8 +188,9 @@ body{
     border-radius: 3px;
     grid-area: a3;
 }
-.fas fa-car{
-    font-size: large
+ion-icon{
+    font-size: 100px;
+    align-self: center;
 
 }
 .h{
@@ -213,7 +214,9 @@ body{
 }
 .threec1:hover{
     background-color: rgb(42, 88, 206);
-
+    ion-icon{
+        color: white;
+    }
     .h{
         color: white;
     }
@@ -226,7 +229,9 @@ body{
 }
 .threec2:hover{
     background-color: rgb(42, 88, 206);
-
+    ion-icon{
+        color: white;
+    }
     .h{
         color: white;
     }
@@ -239,7 +244,9 @@ body{
 }
 .threec3:hover{
     background-color: rgb(42, 88, 206);
-
+    ion-icon{
+        color: white;
+    }
     .h{
         color: white;
     }
@@ -250,5 +257,68 @@ body{
         color: white;
     }
 }
+.animation{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(249, 249, 249);
+    /* display: grid; */
+
+    
+}
+.textt{
+    margin: 10%;
+    padding-top: 7%;
+    text-align: center;
+    
+    .check{
+        letter-spacing: 3px;
+    }
+    .newest{
+        letter-spacing: 3px;
+    }
+    .line{
+        color: rgb(42, 88, 206);
+    }
+
+}
+
+.ani1{
+    width: 90%;
+    gap: 10px;
+    border: 2px solid;
+    margin: auto;
+    display: flex;
+    .car{
+        width: 60%;
+        .aniimg{
+            width: 90%;
+            padding: 20px;
+        }
+    }
+    .matter{
+        padding: 1rem;
+        width: 30%;
+        .carname{
+            text-align: center;
+            color: rgb(77, 77, 77);
+        }
+        .lorem{
+            font-size: large;
+            word-spacing: 3px;
+            line-height: 25px;
+            color: grey;
+        }
+        .lorem1{
+            padding-top: 10px;
+            font-size: large;
+            word-spacing: 3px;
+            line-height: 25px;
+            color: grey;
+        }
+    }
+    
+}
+
+
 
 
