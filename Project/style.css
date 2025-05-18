@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0%;
+    height: 100vh;
+    width: 100%;
     font-family: sans-serif;
     background-image: url(./images/welcome-hero/welcome-banner.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navparent{
@@ -10,7 +19,8 @@ body{
     width: 100%;
     margin-top: 20px;
     /* border: 2px solid; */
-    
+    background-color: black;
+    padding: 10px;
     justify-content: space-between;
     position: sticky;
     top: 0%;
@@ -31,17 +41,20 @@ body{
 }
 .navchild2{
     display: flex;
-    
-    width: 700px;
-    justify-content: space-around;
+    margin-right: 10%;
+    width: 50%;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 200px;
+    /* padding-right: 200px; */
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     letter-spacing: 1.5px;
 
     /* border: 2px solid; */
+}
+.a>h3{
+    font-size: medium;
 }
 .a{
     text-decoration: none;
@@ -54,27 +67,40 @@ body{
     color: blue;
 }
 .text{
+    margin: auto;
+    width: 80%;
     height: 70vh;
-    /* border: 2px solid; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin-top: 10%;
+    margin-bottom: -150px;
+
 }
 .lrge{
+    /* width: 50vw; */
+    text-align: center;
+    font-family:sans-serif;
     text-transform: uppercase;
-    font-size: xxx-large;
+    font-weight: 900;
+    font-size: 40px;
     color:aliceblue;
-    word-spacing: 3px;
+    /* word-spacing: 3px; */
+    margin-bottom: 50px;
 }
-.center{
+.center1{
     text-align: center;
     color:aliceblue;
     font-size: large;
-    line-height: 15px;
     word-spacing: 3px;
     text-decoration: solid;
+    margin-bottom: -50px;
 }
+
 .button{
+
+    height: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -91,9 +117,10 @@ body{
     margin-top: 40px;
     transition-duration: 0.7s;
 }
+/*
 .button1:hover{
     background-color: rgb(9, 42, 205);
-}
+} */
 #white{
     color: azure;
     text-decoration:none ;
@@ -487,26 +514,35 @@ ion-icon{
 }
 
 .feature{
-    /* border: 2px solid; */
-    width: 90vw;
-    margin: auto;
-    height: 100vh;
+    width: 100vw;
+    margin:0;
     display: flex;
-    margin-bottom: 15%;
-    
+    margin-bottom: 3%;
     flex-wrap: wrap;
+}
     .nc{
         width: 20%;
-        height: 35%;
-        
+        height: 25%;
         margin: auto;
-        /* padding: 20px; */
+        padding: 20px;
         align-self: center;
-        border: 0.5px solid gray;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: end;
+    }
+    .nc .featuretext{
+        padding: 30px 30px 0;
+        border: 0.5px solid gray;
+    }
+    .nc div{
+        width: 100%;
+        height: 30%;
+        padding: 30px 30px 0;
+        border: 0.5px solid gray;
+
+    }
+
 
         .fcar{
             width: 180px;
@@ -519,7 +555,6 @@ ion-icon{
             letter-spacing: 1px;
             word-spacing: 5px;
             padding-top: 10px;
-            border-top: 0.5px solid gray;
             font-size: small;
             color: gray;
             padding-left: 5px;
@@ -531,10 +566,11 @@ ion-icon{
         width: 20%;
         height: 20%;
         margin: auto;
+    }
 
         .gray{
             color: dimgrey;
-            font-size: large;
+            font-size: medium;
 
         }
         .price{
@@ -547,12 +583,14 @@ ion-icon{
             word-spacing: 2px;
             line-height: 20px;
         }
-    }
     
-}
+    
+
 .clientp{
     height: 100vh;
-    border: 2px solid;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* border: 2px solid; */
     background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: column;
@@ -560,9 +598,10 @@ ion-icon{
     align-items: center;
 
     .clienttext{
-        border: 2px solid;
+        /* border: 2px solid; */
         .clitxt{
             font-size: 40px;
+            font-weight: 550;
             color: rgb(73, 73, 73);
         }
         .cliline{
@@ -571,24 +610,71 @@ ion-icon{
         }
     }
     .clientthree{
-        border: 2px solid;
+        /* border: 0.5px solid gray; */
         display: flex;
         width: 80%;
         justify-content: space-evenly;
+        /* gap: 15px; */
         .cli1{
-            width: 30%;
-            border: 2px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 28%;
+            height: 100%;
+            padding: 15px;
+            border: 0.5px solid darkgray;
+            
         }
         .cli2{
-            width: 30%;
-            border: 2px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 28%;
+            height: 100%;
+            padding: 15px;
+            border: 0.5px solid darkgray;
         }
         .cli3{
-            width: 30%;
-            border: 2px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 28%;
+            height: 100%;
+            padding: 15px;
+            border: 0.5px solid darkgray;
         }
     }
 }
+.para{
+     text-align: center;   
+     word-spacing: 8px;
+     line-height: 25px;  
+     color: gray;  
+     font-size: 18px;    
+}
+.clientname{
+    color: rgb(98, 98, 98);
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
 
+.brands{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7%;
+}
+.footer{
+    height: 70vh;
+    background-color:rgb(48, 48, 114);
+}
 
+/* *{
+    font-size: 10px;
+} */
 
