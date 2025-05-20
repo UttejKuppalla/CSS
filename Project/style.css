@@ -286,18 +286,16 @@ ion-icon{
 }
 .animation{
     width: 100%;
-    height: auto;
-    /* display: flex; */
+    height: 100vh;
     background-color: rgb(249, 249, 249);
-    /* display: grid; */
-    /* border: 2px solid; */
-   
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     
 }
 .textt{
-    margin: 7%;
-    padding-top: 5%;
+    /* margin: 7%; */
+    /* padding-top: 5%; */
     text-align: center;
     
     .check{
@@ -312,196 +310,32 @@ ion-icon{
 
 }
 
-.ani1{
-    width: 90%;
-    height: 500px;
-    gap: 10px;
-    /* border: 2px solid; */
-    margin: auto;
-    display: flex;
-    align-items: center;
-    
-    .car{
-        width: 60%;
-        .aniimg{
-            width: 90%;
-            padding: 20px;
-            
-        }
-    }
-    .matter{
-        padding: 1rem;
-        width: 30%;
-        .carname{
-            text-align: center;
-            color: rgb(77, 77, 77);
-        }
-        .lorem{
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .lorem1{
-            padding-top: 10px;
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .but{
-            background-color: dodgerblue;
-            border: 0px solid;
-            padding-top: 20px;
-            border-radius: 5px;
-                padding-bottom: 20px;
-                padding-left: 40px;
-                padding-right: 40px;
-            
-            .viewD{
-                font-size: large;
-                color: white;
-                text-decoration: none;
-                
-            }
-        }
-        .but:hover{
-            background-color: blue;
-            transition-duration: 2s;
-        }
-    }
-   
-    
+.newmatter{
+    width: 40%;
+    padding: 10px;
 }
-.ani2{
-    width: 90%;
-    height: 500px;
-    gap: 10px;
-    /* border: 2px solid; */
-    margin: auto;
-    display: flex;
-    align-items: center;
-    
-    .car1{
-        width: 60%;
-        .aniimg{
-            width: 90%;
-            padding: 20px;
-            
-        }
-    }
-    .matter1{
-        padding: 1rem;
-        width: 30%;
-        .carname{
-            text-align: center;
-            color: rgb(77, 77, 77);
-        }
-        .lorem{
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .lorem1{
-            padding-top: 10px;
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .but{
-            background-color: dodgerblue;
-            border: 0px solid;
-            padding-top: 20px;
-            border-radius: 5px;
-                padding-bottom: 20px;
-                padding-left: 40px;
-                padding-right: 40px;
-            
-            .viewD{
-                font-size: large;
-                color: white;
-                text-decoration: none;
-                
-            }
-        }
-        .but:hover{
-            background-color: blue;
-            transition-duration: 2s;
-        }
-    }
-    
+.title{
+    color: rgb(68, 68, 68);
 }
-.ani3{
-    width: 90%;
-    height: 500px;
-    gap: 10px;
-    /* border: 2px solid; */
-    margin: auto;
-    display: flex;
-    align-items: center;
-  
-    
-    .car2{
-        width: 60%;
-        .aniimg{
-            width: 90%;
-            padding: 20px;
-            
-        }
-    }
-    .matter2{
-        padding: 1rem;
-        width: 30%;
-        .carname{
-            text-align: center;
-            color: rgb(77, 77, 77);
-        }
-        .lorem{
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .lorem1{
-            padding-top: 10px;
-            font-size: large;
-            word-spacing: 3px;
-            line-height: 25px;
-            color: grey;
-        }
-        .but{
-            background-color: dodgerblue;
-            border: 0px solid;
-            padding-top: 20px;
-            border-radius: 5px;
-                padding-bottom: 20px;
-                padding-left: 40px;
-                padding-right: 40px;
-            
-            .viewD{
-                font-size: large;
-                color: white;
-                text-decoration: none;
-                
-            }
-        }
-        .but:hover{
-            background-color: blue;
-            transition-duration: 2s;
-        }
-    }
-    
+.submatter{
+    color: rgb(104, 103, 103);
+    word-spacing: 3px;
+    font-size: large;
+}
+.newmatterbu{
+    padding: 15px 40px;
+    border: 0px solid;
+    color: white;
+    background-color: rgb(42, 88, 206);
+    border-radius: 3px;
 }
 .center{
-    margin: 7%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
+    margin: 7% ;
+    text-align: center;
+
     .cc1{
         color: black;
+        
     }
     .cc2{
         line-height: 8px;
@@ -514,8 +348,8 @@ ion-icon{
 }
 
 .feature{
-    width: 100vw;
-    margin:0;
+    width: 90vw;
+    margin:auto;
     display: flex;
     margin-bottom: 3%;
     flex-wrap: wrap;
@@ -544,14 +378,14 @@ ion-icon{
     }
 
 
-        .fcar{
+    .fcar{
             width: 180px;
             padding: 5px;
             padding-bottom: 50px;
             
             
-        }
-        .featuretext{
+    }
+    .featuretext{
             letter-spacing: 1px;
             word-spacing: 5px;
             padding-top: 10px;
@@ -559,8 +393,8 @@ ion-icon{
             color: gray;
             padding-left: 5px;
             line-height: 20px;
-        }
     }
+    
     .nc1{
         /* border: 2px solid; */
         width: 20%;
@@ -672,9 +506,8 @@ ion-icon{
 .footer{
     height: 70vh;
     background-color:rgb(48, 48, 114);
+    
 }
 
-/* *{
-    font-size: 10px;
-} */
+
 
