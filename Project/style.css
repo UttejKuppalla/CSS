@@ -424,6 +424,7 @@ ion-icon{
     height: 100vh;
     margin-top: 10%;
     margin-bottom: 10%;
+    
     /* border: 2px solid; */
     background-color: rgb(249, 249, 249);
     display: flex;
@@ -447,6 +448,7 @@ ion-icon{
         /* border: 0.5px solid gray; */
         display: flex;
         width: 80%;
+        height: 50vh;
         justify-content: space-evenly;
         /* gap: 15px; */
         .cli1{
@@ -454,13 +456,19 @@ ion-icon{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 28%;
-            height: 100%;
+            width: 30%;
+            height: 90%;
             padding: 15px;
             border: 0.5px solid darkgray;
-            
+
+            img{
+                padding-bottom: 30px;
+            }
+            p{
+                padding: 3px;
+            }
         }
-        .cli2{
+        /* .cli2{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -479,7 +487,7 @@ ion-icon{
             height: 100%;
             padding: 15px;
             border: 0.5px solid darkgray;
-        }
+        } */
     }
 }
 .para{
@@ -495,6 +503,13 @@ ion-icon{
     letter-spacing: 1px;
     line-height: 25px;
 }
+.cli1:hover{
+    background-color:rgb(15, 122, 228);
+    color: white;
+    p{
+        color: white;
+    }
+}
 
 .brands{
     width: 80%;
@@ -506,6 +521,80 @@ ion-icon{
 .footer{
     height: 70vh;
     background-color:rgb(48, 48, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    .big{
+        width: 18vw;
+        .fp{
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            color: rgb(207, 207, 207);
+        }
+        .fp1{
+            color: rgb(207, 207, 207);
+            font-size: medium;
+        }
+    }
+    .big2{
+        width: 15vw;
+        .bigc2{
+            color: rgb(207, 207, 207);
+            font-weight: 550;
+            font-size: small;
+        }
+        ul{
+            li{
+                font-size: medium;
+                color: rgb(207, 207, 207);
+            }
+        }
+    }
+    .big3{
+        height: 40%;
+        width: 30vw;
+        gap: 2px 0;
+        border: 2px solid;
+        .bigc3{
+            color: rgb(207, 207, 207);
+            font-weight: 550;
+            font-size: small;
+        }
+        ol{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            flex-wrap: wrap;
+            li{
+                font-size: large;
+                color: rgb(207, 207, 207);
+            }
+
+        }
+    }
+    .big4{
+        .bigc41{
+            color: rgb(207, 207, 207);
+        }
+        .bigc42{
+            color: rgb(207, 207, 207);
+        }
+        .addmail{
+            width: 60%;
+            background-color:rgb(48, 48, 114);
+            filter: drop-shadow(0.25rem 0.25rem 0.25rem black);
+            input{
+                background-color:rgb(48, 48, 114) ;
+                border: 0px solid;
+            }
+        }
+    }
+
+    
+    
     
 }
 
